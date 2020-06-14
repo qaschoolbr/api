@@ -59,4 +59,16 @@ Acesse o painel via [localhost:1337](http://localhost:1337) para conferir se est
 
 ---
 
+## Desligar Ambiente
+
+Ao final do uso, desative o ambiente para não ficar consumindo recursos de seu computador.
+
+```bash
+docker-compose down
+```
+
+![Down](images/down.png)
+
+---
+
 [Conheça o layout da API (Endpoints e Atributos)](./api.md)

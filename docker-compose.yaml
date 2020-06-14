@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  qaschool_api:
+    image: qaschool/api
+    container_name: qaschool_api
+    ports:
+      - '1337:1337'
+    command: sh -c "cd /srv/qaschool && yarn develop"
+    restart: always

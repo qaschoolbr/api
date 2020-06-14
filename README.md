@@ -8,9 +8,10 @@ Este repositório é utilizado nos cursos de API da QA School.
 
 - Instalar o Docker + Docker-Compose
 
-  - [MacOS](https://github.com/qaschoolbr/setup/blob/master/macos/README.md#docker)
-  - [Linux](https://github.com/qaschoolbr/setup/blob/master/linux/README.md#docker)
-  - [Windows](https://github.com/qaschoolbr/setup/blob/master/windows/README.md#docker)
+  - [MacOS](https://github.com/qaschoolbr/setup/blob/master/macos/docker/README.md)
+  - [Linux](https://github.com/qaschoolbr/setup/blob/master/linux/docker/README.md)
+  - [Windows Home](https://github.com/qaschoolbr/setup/blob/master/windows/docker/toolbox/README.md)
+  - [Windows Pro/Enterprise/Education](https://github.com/qaschoolbr/setup/blob/master/windows/docker/desktop/README.md)
 
 ### :octocat: Clonar Repositório
 

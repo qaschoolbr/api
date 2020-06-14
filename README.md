@@ -59,9 +59,9 @@ Acesse o painel via [localhost:1337](http://localhost:1337) para conferir se est
 
 ---
 
-# CONHECENDO A ESTRUTURA DA API
+<br><br><br><br>
 
----
+# CONHECENDO A ESTRUTURA DA API
 
 ## :lock: AUTH
 

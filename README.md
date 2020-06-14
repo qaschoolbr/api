@@ -57,8 +57,6 @@ Quando o log exibir **Welcome Back**, basta usar a combinação de teclas <kbd>C
 
 Acesse o painel via [localhost:1337](http://localhost:1337) para conferir se está tudo OK mesmo.
 
-<br><br>
-
 ---
 
 [Conheça o layout da API (Endpoints e Atributos)](./api.md)

@@ -21,7 +21,7 @@ git clone https://github.com/qaschoolbr/api.git
 
 > Caso utilize o HUB basta rodar `hub clone qaschoolbr/postman`
 
-Entre no diretório criado com o comando: 
+Entre no diretório criado com o comando:
 
 ```bash
 cd api/
@@ -56,6 +56,10 @@ Quando o log exibir **Welcome Back**, basta usar a combinação de teclas <kbd>C
 ## :rocket: API no Ar
 
 Acesse o painel via [localhost:1337](http://localhost:1337) para conferir se está tudo OK mesmo.
+
+---
+
+# CONHECENDO A ESTRUTURA DA API
 
 ---
 

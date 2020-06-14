@@ -19,9 +19,13 @@ Este repositório é utilizado nos cursos de API da QA School.
 git clone https://github.com/qaschoolbr/api.git
 ```
 
-Entre no diretório criado com o comando: `cd api/`.
-
 > Caso utilize o HUB basta rodar `hub clone qaschoolbr/postman`
+
+Entre no diretório criado com o comando: 
+
+```bash
+cd api/
+```
 
 ### :whale: Instanciar a API
 

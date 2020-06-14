@@ -2,13 +2,13 @@
 
 Este repositório é utilizado nos cursos de API da QA School.
 
-## SETUP :hammer_and_wrench:
+## :hammer_and_wrench: SETUP
 
 > Pré-requisitos:
 
 - Instalar o Docker + Docker-Compose ([encontre instruções aqui](https://github.com/qaschoolbr/setup))
 
-### Clonar Repositório :octocat:
+### :octocat: Clonar Repositório
 
 ```bash
 git clone https://github.com/qaschoolbr/api.git
@@ -16,7 +16,7 @@ git clone https://github.com/qaschoolbr/api.git
 
 Caso utilize o HUB basta rodar `hub clone qaschoolbr/postman`
 
-### Instanciar a API :whale:
+### :whale: Instanciar a API
 
 Execute o comando abaixo para subir a stack e aguarde o download da imagem `qaschool/api`:
 
@@ -30,7 +30,7 @@ Quando a imagem for baixada, o container será instanciado:
 
 ![Created](images/created.png)
 
-### Verificar Log :memo:
+### :memo: Verificar Log
 
 Execute o comando abaixo para verificar o log em tempo real:
 
@@ -42,13 +42,13 @@ docker-compose logs -f
 
 Quando o log exibir **Welcome Back**, basta usar a combinação de teclas <kbd>CTRL</kbd> + <kbd>C</kbd> para sair do log.
 
-## API no Ar :rocket:
+## :rocket: API no Ar
 
 Acesse o painel via [localhost:1337](http://localhost:1337) para conferir se está tudo OK mesmo.
 
 ---
 
-## AUTH :lock:
+## :lock: AUTH
 
 Todos os endpoints requerem autenticação. Para obter o token de acesso, é preciso requisitá-lo da seguinte forma:
 
@@ -58,7 +58,7 @@ Todos os endpoints requerem autenticação. Para obter o token de acesso, é pre
       - HEADER: application/json
       - BODY (raw:json): { "identifier": "qaschool", "password": "qaschool" }
 
-## ENDPOINTS :link:
+## :link: ENDPOINTS
 
 Basicamente, ele consiste dos seguintes endpoints:
 
@@ -98,7 +98,7 @@ Basicamente, ele consiste dos seguintes endpoints:
       - PUT /students/:id
       - DELETE /students/:id
 
-### ATRIBUTOS :pencil:
+### :abc: ATRIBUTOS
 
 - Category (/categories)
 
@@ -148,6 +148,6 @@ Basicamente, ele consiste dos seguintes endpoints:
         - document: file[files], optional
         - classes: array[/classes({ids})], optional
 
-### Banco de Dados :file_cabinet:
+### :file_cabinet: Banco de Dados
 
 Os dados da API estão contidos em um arquivo SQLite localizado no diretório `.tmp/data.db`.

@@ -7,6 +7,7 @@ Este repositório é utilizado nos cursos de API da QA School.
 > Pré-requisitos:
 
 - Instalar o Docker + Docker-Compose
+
   - [MacOS](https://github.com/qaschoolbr/setup/blob/master/macos/README.md#docker)
   - [Linux](https://github.com/qaschoolbr/setup/blob/master/linux/README.md#docker)
   - [Windows](https://github.com/qaschoolbr/setup/blob/master/windows/README.md#docker)

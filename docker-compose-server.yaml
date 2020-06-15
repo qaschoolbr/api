@@ -8,3 +8,14 @@ services:
       - '1337:1337'
     command: sh -c "cd /srv/qaschool && yarn develop"
     restart: always
+    volumes:
+      - 'qaschool:/srv/qaschool'
+    tty: false
+
+volumes:
+  qaschool:
+    driver: local
+    driver_opts:
+      type: none
+      device: $PWD/server
+      o: bind

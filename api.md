@@ -6,9 +6,8 @@ Todos os endpoints requerem autenticação. Para obter o token de acesso, é pre
 
 - Auth (/auth/local)
 
-      - URL: localhost:1337/auth/local
-      - HEADER: application/json
-      - BODY (raw:json): { "identifier": "qaschool", "password": "qaschool" }
+      - identifier: string, required
+      - password: string, required
 
 ## :link: ENDPOINTS
 
